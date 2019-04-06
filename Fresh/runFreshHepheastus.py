@@ -3,11 +3,8 @@ import os
 import subprocess
 from subprocess import Popen, PIPE
 
-os.chdir( "../../" )
-print(os.getcwd())
-
 hepPath = 'Code/HephaestusBase/.bin/win32/Release/Hephaestus Base.exe'
-hepPathFull = '../' + hepPath;
+hepPathFull = '../../../' + hepPath;
 arguments = [hepPathFull, "bootHepFresh.json", "-c:on", "-ping"]
 
 print('Starting Hephaestus from\n ' + hepPath);
