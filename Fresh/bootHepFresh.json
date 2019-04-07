@@ -1,0 +1,9 @@
+{ "serious" : [
+    { "env" : { "setRefDir" : "{boot}/../../"} },
+    
+    { "env" : "createSocketMan" },
+    { "env" : "createPipeline" },
+    
+    { "pip" : { "setBaseHubPath" : "hub.hep.json" } }
+  ]
+}
