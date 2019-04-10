@@ -4,6 +4,7 @@
     { "env" : "createSocketMan" },
     { "env" : "createPipeline" },
     
+    { "pip" : { "setReferenceDirectory" : "../" } },
     { "pip" : { "addBaseHubFile" : "hub.hep.json" } },
     { "pip" : "startProcessing" }
   ]
