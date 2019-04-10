@@ -1,0 +1,9 @@
+{
+  "vars" : [
+    { "dev-dir" : "{dev-dir}/ohyes" }
+  ],
+  "hubs" : [
+    { "path" : "aaa.json"
+    }
+  ]
+}
