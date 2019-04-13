@@ -3,7 +3,7 @@ import os
 import subprocess
 from subprocess import Popen, PIPE
 
-hepPath = 'Code/HephaestusBase/.bin/win32/Release/Hephaestus Base.exe'
+hepPath = 'Code/HephaestusBase/-bin/win32/Release/Hephaestus Base.exe'
 hepPathFull = '../../../' + hepPath;
 arguments = [hepPathFull, "bootHepFresh.json", "-c:on", "-ping"]
 
