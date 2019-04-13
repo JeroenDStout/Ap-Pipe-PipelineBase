@@ -1,10 +1,10 @@
 { "serious" : [
-    { "env" : { "setRefDir" : "{boot}/../../"} },
+    { "env" : { "setRefDir" : "{boot}/../"} },
     
-    { "env" : "createSocketMan" }, 
+    { "env" : "createSocketMan" },
     { "env" : "createPipeline" },
     
-    { "pip" : { "setReferenceDirectory" : "../" } },
+    { "pip" : { "setReferenceDirectory" : "" } }, 
     { "pip" : { "setPersistentDirectory" : ".hep/" } },
     { "pip" : { "addBaseHubFile" : "hub.hep.json" } },
     { "pip" : "startProcessing" }
