@@ -6,8 +6,14 @@
   "pipes" : [
     { "tool" : "smartcopy",
       "paths" : [
-        { "in"  : "{base-dir}/Code/HephaestusBase/-bin/Win32/Release/Hephaestus Base.exe",
-          "out" : "{dev-dir}/Hephaestus.exe" }, 
+        { "in"  : "{base-dir}/Code/HephaestusBase/-bin/*~version~/Release/Hephaestus Base.exe",
+          "out" : "{dev-dir}/Hephaestus {version} Release.exe" }, 
+        { "in"  : "{base-dir}/Code/HephaestusBase/-bin/*~version~/Debug/Hephaestus Base.exe",
+          "out" : "{dev-dir}/Debug/Hephaestus {version} Debug.exe" }
+      ]
+    },
+    { "tool" : "smartcopy",
+      "paths" : [
         { "in"  : "{cur-dir}/hephaestus_boot.json",
           "out" : "{dev-dir}/hephaestus_boot.json" }
       ],
