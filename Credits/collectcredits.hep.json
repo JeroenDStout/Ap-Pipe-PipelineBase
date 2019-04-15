@@ -3,9 +3,9 @@
     { "tool" : "smartcopy",
       "paths" : [
         { "in"  : "{base-dir}/Code/*~project~/Meta/contributors.json",
-          "out" : "{tmp-credits-dir}/credits/~project~_contributors.json" },
+          "out" : "{tmp-credits-dir}/code/{project}_contributors.json" },
         { "in"  : "{base-dir}/Code/*~project~/Meta/libraries.json",
-          "out" : "{tmp-credits-dir}/credits/~project~_libraries.json" }
+          "out" : "{tmp-credits-dir}/code/{project}_libraries.json" }
       ]
     }
   ]
