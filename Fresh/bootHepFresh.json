@@ -1,12 +1,12 @@
 { "serious" : [
-    { "env" : { "setRefDir" : "{boot}/../../"} },
+    { "env  / set_ref_dir"              : "{boot}/../../" },
     
-    { "env" : "createSocketMan" }, 
-    { "env" : "createPipeline" },
+    { "env  / create_socketman"         : {} },
+    { "env  / create_pipeline"          : {} },
     
-    { "pip" : { "setReferenceDirectory" : "../" } },
-    { "pip" : { "setPersistentDirectory" : ".hep/" } },
-    { "pip" : { "addBaseHubFile" : "hub.hep.json" } },
-    { "pip" : "startProcessing" }
+    { "pipe / set_reference_directory"  : "../" }, 
+    { "pipe / set_persistent_directory" : ".hep" }, 
+    { "pipe / add_base_hub_file"        : { "path" : "hub.hep.json" } },
+    { "pipe / start_processing"         : "startProcessing" }
   ]
 }
