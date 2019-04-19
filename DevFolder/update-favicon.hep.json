@@ -1,0 +1,12 @@
+{
+  "pipes" : [
+    { "tool" : "smartcopy",
+      "paths" : [
+        { "in"  : "{cur-dir}/favicon.ico",
+          "out" : "{dev-dir}/Web/hep_favicon.ico" },
+        { "in"  : "{cur-dir}/favicon.ico",
+          "out" : "{vsproj-dir}/icon1.ico" }
+      ]
+    }
+  ]
+}

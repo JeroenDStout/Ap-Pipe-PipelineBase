@@ -1,0 +1,18 @@
+{
+  "pipes" : [
+    { "tool" : "smartcopy",
+      "paths" : [
+        { "in"  : "{code-bin-dir}/*~version~/Release/Hephaestus Base.exe",
+          "out" : "{dev-dir}/Hephaestus {version} Release.exe" }, 
+        { "in"  : "{code-bin-dir}/*~version~/Debug/Hephaestus Base.exe",
+          "out" : "{dev-dir}/Debug/Hephaestus {version} Debug.exe" }
+      ]
+    },
+    { "tool" : "smartcopy",
+      "paths" : [
+        { "in"  : "{cur-dir}/hephaestus_boot.json",
+          "out" : "{dev-dir}/hephaestus_boot.json" }
+      ]
+    }
+  ]
+}
