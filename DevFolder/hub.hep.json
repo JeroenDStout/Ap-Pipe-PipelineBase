@@ -15,7 +15,11 @@
     { "tool" : "smartcopy",
       "paths" : [
         { "in"  : "{cur-dir}/hephaestus_boot.json",
-          "out" : "{dev-dir}/hephaestus_boot.json" }
+          "out" : "{dev-dir}/hephaestus_boot.json" },
+        { "in"  : "{cur-dir}/favicon.ico",
+          "out" : "{dev-dir}/Web/hep_favicon.ico" },
+        { "in"  : "{cur-dir}/favicon.ico",
+          "out" : "{base-dir}/Code/HephaestusBase/Visual Studio/icon1.ico" }
       ],
       "settings" : [
       ]
