@@ -1,0 +1,10 @@
+{
+  "pipes" : [
+    { "tool" : "smartcopy",
+      "paths" : [
+        { "in"  : "{cur-dir}/iris_enum_hephaestus.json",
+          "out" : "{dev-dir}/Iris/Connexions/hephaestus.json" }
+      ]
+    }
+  ]
+}
