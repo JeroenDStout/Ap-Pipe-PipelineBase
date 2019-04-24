@@ -1,5 +1,6 @@
 {
-    "name" : "Hephaestus",
+    "name" : "hep",
+    "long_name" : "Hephaestus",
     "port" : 3001,
     "icon" : "web/hep_favicon.ico"
 }
