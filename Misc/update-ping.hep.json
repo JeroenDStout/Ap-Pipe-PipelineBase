@@ -1,0 +1,10 @@
+{
+  "pipes" : [
+    { "tool" : "smartcopy",
+      "paths" : [
+        { "in"  : "{cur-dir}/ping.wav",
+          "out" : "{data-dir}/ping.wav" }
+      ]
+    }
+  ]
+}
