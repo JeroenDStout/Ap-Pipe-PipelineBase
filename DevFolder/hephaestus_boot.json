@@ -7,6 +7,6 @@
     { "pipe / set_reference_directory"  : "../../" }, 
     { "pipe / set_persistent_directory" : "../.hep" }, 
     { "pipe / add_base_hub_file"        : { "path" : "../hub.hep.json" } },
-    { "pipe / start_processing"         : "startProcessing" }
+    { "pipe / start_processing"         : {} }
   ]
 }
